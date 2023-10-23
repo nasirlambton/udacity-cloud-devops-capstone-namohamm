@@ -89,7 +89,7 @@ jobs:
       - run:
           name: Push Docker Image
           command: |
-            docker tag ml-classification namhamm/ml-classification
+            docker tag ml-classification namohamm/ml-classification
             docker push namohamm/ml-classification
   deploy:
     docker:
