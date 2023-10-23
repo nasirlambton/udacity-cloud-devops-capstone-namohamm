@@ -7,7 +7,7 @@ orbs:
 jobs:
   lint:
     docker:
-      - image: python:3.7.3-stretch
+      - image: python:3.7.4
     working_directory: ~/repo
     steps:
       - checkout
@@ -38,7 +38,7 @@ jobs:
             make lint
   build:
     docker:
-      - image: cimg/python:3.7.3-stretch
+      - image: cimg/python:3.7.4
     parameters:
       cluster-name:
         description: |
@@ -93,7 +93,7 @@ jobs:
             docker push namohamm/ml-classification
   deploy:
     docker:
-      - image: cimg/python:3.7.3-stretch
+      - image: cimg/python:3.7.4
     parameters:
       cluster-name:
         description: |
