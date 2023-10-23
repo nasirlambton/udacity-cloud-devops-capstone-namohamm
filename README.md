@@ -75,11 +75,11 @@ To run this project, you will need to add the following environment variables to
 * Run `aws eks list-clusters --profile udacity` to see output like below
 `{
     "clusters": [
-        "CapstoneEKS-YlTyc3rKAnBd"
+        "CapstoneEKS-0J5F5Y6NMA53"
     ]
 }` to get cluster name
 
-* Replace cluster name to the line `123: cluster-name: CapstoneEKS-YlTyc3rKAnBd` in `./circleci/config.yml`.
+* Replace cluster name to the line `123: cluster-name: CapstoneEKS-0J5F5Y6NMA53` in `./circleci/config.yml`.
 * Configure CircleCI project for the github repository
 * Done!
 
