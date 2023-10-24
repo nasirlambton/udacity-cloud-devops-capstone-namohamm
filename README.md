@@ -4,9 +4,8 @@
 
 
 ## Badges
-
-
 ### CircleCI Status
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/nasirlambton/udacity-cloud-devops-capstone-namohamm/tree/master.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/nasirlambton/udacity-cloud-devops-capstone-namohamm/tree/master)
 
 
 ### License
